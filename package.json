@@ -1,0 +1,29 @@
+{
+  "name": "cm-socialstudio",
+  "version": "0.0.1",
+  "description": "Simple SocialStudio oAuth Endpoint",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.16.4",
+    "node-slack": "0.0.7",
+    "rollbar": "^2.14.2",
+    "simple-oauth2": "^3.0.0",
+    "logdna": "^3.3.3"
+  },
+  "engines": {
+    "node": "8.x.x"
+  },
+  "repository": "https://github.com/chattermill/cm-socialstudio",
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "express"
+  ],
+  "author": "Mikhail Dubov <mikhail@chattermill.io>",
+  "dotenv": true,
+  "public": true
+}
